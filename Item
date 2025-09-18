@@ -1,0 +1,17 @@
+package Amor;
+
+public class Item {
+	
+	String code;
+	String name;
+	String quantity;
+	
+	public Item(String code, String name, String quantity) {
+		this.code = code;
+		this.name = name;
+		this.quantity = quantity;
+	}
+	public String toString() {
+		return code + " | " + name + " | " + "qty=" + quantity;
+	}
+}
